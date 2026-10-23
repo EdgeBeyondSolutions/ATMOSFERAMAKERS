@@ -5,17 +5,17 @@
 
 @font-face {
   font-family: "Bodoni Moda";
-  src: url("assets/fonts/bodoni-moda-latin-opsz-normal.woff2") format("woff2");
+  src: url("fonts/bodoni-moda-latin-opsz-normal.woff2") format("woff2");
   font-weight: 400 900; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Bodoni Moda";
-  src: url("assets/fonts/bodoni-moda-latin-opsz-italic.woff2") format("woff2");
+  src: url("fonts/bodoni-moda-latin-opsz-italic.woff2") format("woff2");
   font-weight: 400 900; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Tenor Sans";
-  src: url("assets/fonts/tenor-sans-latin-400-normal.woff2") format("woff2");
+  src: url("fonts/tenor-sans-latin-400-normal.woff2") format("woff2");
   font-weight: 400; font-style: normal; font-display: swap;
 }
 
@@ -121,7 +121,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Page heads (inner pages) ---------- */
 .page-head { position: relative; padding: clamp(150px, 24vh, 260px) 0 clamp(50px, 8vw, 110px); overflow: hidden; }
-.page-head::after { content: ""; position: absolute; right: 4%; bottom: 6%; width: clamp(260px, 36vw, 560px); aspect-ratio: 803 / 642; background: url("assets/img/logo-mark.png") center / contain no-repeat; opacity: .07; pointer-events: none; }
+.page-head::after { content: ""; position: absolute; right: 4%; bottom: 6%; width: clamp(260px, 36vw, 560px); aspect-ratio: 803 / 642; background: url("img/logo-mark.png") center / contain no-repeat; opacity: .07; pointer-events: none; }
 .page-head h1 { font-size: clamp(3rem, 9vw, 8.4rem); line-height: .98; letter-spacing: -.02em; max-width: 14ch; }
 .page-head .lead-p { margin-top: clamp(24px, 3vw, 44px); max-width: 52ch; font-size: clamp(1.05rem, 1.5vw, 1.25rem); }
 

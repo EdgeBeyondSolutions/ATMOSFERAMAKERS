@@ -1,8 +1,8 @@
 {
   "name": "Atmosfera — Modern Building Makers",
   "short_name": "Atmosfera",
-  "start_url": "../index.html",
-  "scope": "../",
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#1c1714",
   "theme_color": "#120e0c",
